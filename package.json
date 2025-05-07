@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "firebase": "^11.6.0",
+    "vite": "^4.0.0"
+  },
+  "name": "realestatesite-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start": "npm run start --prefix Backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManishKapoor5/RealEstateSite-main.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ManishKapoor5/RealEstateSite-main/issues"
+  },
+  "homepage": "https://github.com/ManishKapoor5/RealEstateSite-main#readme"
+}

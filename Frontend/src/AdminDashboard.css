@@ -1,0 +1,108 @@
+.admin-dashboard {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 24px;
+  height: 64px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.admin-header .logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6f42c1;
+}
+
+.admin-header .logo .anticon {
+  margin-right: 8px;
+}
+
+.admin-tabs {
+  padding: 0 24px;
+}
+
+.table-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.activity-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.activity-list li:last-child {
+  border-bottom: none;
+}
+
+/* Property Filter Styles */
+
+.properties-tab{
+  margin: 1%
+}
+.property-filters {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.property-filters .ant-select {
+  min-width: 150px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .table-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .admin-header {
+    padding: 0 16px;
+  }
+  
+  .admin-tabs {
+    padding: 0 16px;
+  }
+}
+
+.agents-tab {
+  margin: 1%;
+}
+
+.settings-tab {
+  margin: 1%;
+}
+
+.dashboard-tab {
+  margin: 1%;
+}
+
+.btn-add-property {
+  background-color: #5E35B1;
+}
+
+#btn-agent {
+  background-color: #5E35B1;
+}
+
+#btn-save-setting {
+  background-color: #5E35B1;
+}
